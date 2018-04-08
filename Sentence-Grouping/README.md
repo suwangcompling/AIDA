@@ -1,8 +1,8 @@
 Sentence Grouping Draft Code
 
-* CNN-for-sentence-similarity
-  * CNN classifier + Hierarchical Agglomerative Clustering
-  * Adapted from Kim (2014) EMNLP
+* Stacked Bi-LSTM + CNN
+  * Stacked Bi-LSTM classifier + CNN context reader + Hierarchical Agglomerative Clustering
+  * Adapted from Dai & Le (2015) NIPS + Kim (2014) EMNLP
   
 * Autoencoder+K-means
   * Learning sentence compression and clustering sentence simultaneously
