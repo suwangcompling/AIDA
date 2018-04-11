@@ -1,5 +1,12 @@
 Sentence Grouping Draft Code
 
+* Baselines
+  * K-Means and HAC directly on sentences as average GloVe embeddings.
+  
+* SCDV
+  * K-Means and HAC directly on sentences as SCDV embeddings.
+  * Adapted from Mekala et al. (2017) EMNLP
+
 * Bi-LSTM + HAC
   * Stacked Bi-LSTM classifier + Hierarchical Agglomerative Clustering
   * Adapted from Dai & Le (2015) NIPS
