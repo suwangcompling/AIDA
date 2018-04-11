@@ -8,16 +8,16 @@ Sentence Grouping Draft Code
   * K-Means/Medoids and HAC directly on sentences as SCDV embeddings.
   * Adapted from Mekala et al. (2017) EMNLP
 
-* Bi-LSTM + HAC
-  * Stacked Bi-LSTM classifier + Hierarchical Agglomerative Clustering
+* Bi-LSTM + HAC/Medoids
+  * Stacked Bi-LSTM classifier + Hierarchical Agglomerative Clustering (or K-Medoids)
   * Adapted from Dai & Le (2015) NIPS
   
-* Bi-LSTM + mutual attention + HAC
-  * Stacked Bi-LSTM classifier + mutual attention between sentence pairs + Hierarchical Agglomerative Clustering
+* Bi-LSTM + mutual attention + HAC/Medoids
+  * Stacked Bi-LSTM classifier + mutual attention between sentence pairs + Hierarchical Agglomerative Clustering (or K-Medoids)
   * Adapted from Dai & Le (2015) NIPS + Hermann et al. (2015) NIPS
 
-* Bi-LSTM + CNN + HAC
-  * Stacked Bi-LSTM classifier + CNN context reader + Hierarchical Agglomerative Clustering
+* Bi-LSTM + CNN + HAC/Medoids
+  * Stacked Bi-LSTM classifier + CNN context reader + Hierarchical Agglomerative Clustering (or K-Medoids)
   * Adapted from Dai & Le (2015) NIPS + Kim (2014) EMNLP
   
 * Autoencoder+K-means (failed idea)
