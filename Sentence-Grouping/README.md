@@ -1,6 +1,7 @@
 Sentence Grouping Draft Code
 
 * Baselines
+  * Dumb baseline: Rand, always predict the label of the longer source in the document mixture.
   * K-Means/Medoids and HAC directly on sentences as average GloVe embeddings.
   
 * SCDV
