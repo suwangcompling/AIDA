@@ -11,6 +11,13 @@ Event Grouping Draft Code
       * BiLSTM classifier: Dai & Le (2015) NIPS
       * CNN reader: Kim (2014) EMNLP
       * Mutual Attention: Hermann et al. (2015) NIPS
+  * w/ Role-factored net initialization
+    * Decked out classifier-cluster initialized by role-factored embeddings rather than GloVe.
+    * Adapted from 
+      * BiLSTM classifier: Dai & Le (2015) NIPS
+      * CNN reader: Kim (2014) EMNLP
+      * Mutual Attention: Hermann et al. (2015) NIPS
+      * Role-factored event encoder: Adapted from Weber et al. (2018) AAAI
   * 1 or 2 layered self-attentive reader.
     * Adapted from Lin et al. (2017) ICLR
   * Role-factored tensor net.
