@@ -24,3 +24,6 @@ Event Grouping Draft Code
     * Adapted from Weber et al. (2018) AAAI
   * FFNN event-pair pretraining
     * Baseline for Role-factored tensor net (replacing tensors with a simple FFNN).
+
+* \[Our model\]
+  * Experimenting with real data (NYT 500k document mixture dataset)
