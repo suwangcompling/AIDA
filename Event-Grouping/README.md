@@ -26,4 +26,5 @@ Event Grouping Draft Code
     * Baseline for Role-factored tensor net (replacing tensors with a simple FFNN).
 
 * \[Our model\]
+  * Baseline: K-Means/Medoids baselines run on average embeddings
   * Experimenting with real data (NYT 500k document mixture dataset)
